@@ -6,7 +6,7 @@ import org.mongodb.morphia.annotations.Id;
 
 import java.util.List;
 
-@Entity
+@Entity("movieDetails")
 public class MovieDetails {
     @Id
     private ObjectId id;
